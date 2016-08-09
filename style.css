@@ -10,7 +10,7 @@ a{
 	text-decoration: none;
 }
 a:link, a:visited{
-	color: blue;
+	color: #92F258;
 }
 
 a:hover, a:active{
@@ -18,16 +18,6 @@ a:hover, a:active{
 	color: #fff;
 }
 
-#years{
-	text-align: center;
-}
-#year1{
-	text-align: left;
-}
-
-#lib{
-	text-align: center;
-}
 
 .body{
 	background-color: #ccc;
@@ -95,7 +85,7 @@ a:hover, a:active{
 }
 .topContent{
 	text-align: center;
-	background-color: #FFF;
+	background-color: #ccc;
 	border-radius: 5px;
 	padding: 3% 5%;
 	margin-top: 2%;
@@ -108,7 +98,6 @@ a:hover, a:active{
 	border-radius: 5px;
 	padding: 3% 5%;
 	margin-top: 2%;
-	height: 500px;
 
 
 }
@@ -142,6 +131,7 @@ a:hover, a:active{
 	margin-left: 3%;
 	padding:2% 3%;
 	margin-bottom:2%;
+	margin-top: 2.5%;
 }
 .bottom-sidebar
 {
@@ -152,6 +142,27 @@ a:hover, a:active{
 	margin-left: 3%;
 	padding:2% 3%;
 	margin-bottom:2%;
+	margin-top: 2%;
+}
+.third-sidebar{
+	width: 21%;
+	float: left;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-left: 3%;
+	padding:2% 3%;
+	margin-bottom:2%;
+	margin-top: 2%;
+}
+.fourth-sidebar{
+	width: 21%;
+	float: left;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-left: 3%;
+	padding:2% 3%;
+	margin-bottom:2%;
+	margin-top: 2%;
 }
 
 .mainfooter
@@ -217,7 +228,6 @@ a:hover, a:active{
 	padding: 3% 5%;
 	margin-top: 2%
 	margin-bottom:3%;
-	height: 1000px;
 
 }
 
@@ -226,7 +236,7 @@ a:hover, a:active{
 
 }
 
-.top-sidebar, .middle-sidebar, .bottom-sidebar
+.top-sidebar, .middle-sidebar, .bottom-sidebar, .third-sidebar, .fourth-sidebar
 {
 	width: 94%;
 	padding:2% 3%;
@@ -235,11 +245,23 @@ a:hover, a:active{
 }
 
 
+#main-topic{
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0;
+	position: relative;
+	top: 25px;
+	left: 0;
+}
 
 
+#com1, #com2, #com3, #com4{
+	
+	font-weight: bold;
+	font-size: 20px;
 
-
-
+}
 
 
 
