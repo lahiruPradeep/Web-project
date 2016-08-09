@@ -32,69 +32,37 @@
 	<div class="mainContent">
 		<div class="content">
 		<article class="topContent">
-			<content>
-				<h1>Upcoming Events</h1>
-				<div class="container">
-            <div id="slideshow" class="cycle-slideshow" 
-			data-cycle-fx = "fade"
-			data-cycle-speed = "600"
-			data-cycle-timeout = "3000"
-			data-cycle-pager = "#pager"
-			data-cycle-pager-template = "<a href='#'><img src='{{src}}' height=100 width=150/>"
-			
-			data-cycle-manual-fx = "scrollHorz"
-			data-cycle-manual-speed = "400"
-			data-cycle-pager-fx = "fade">
-                <img src="images/nsbm1.jpeg" alt"nsbm" />
-                <img src="images/nsbm2.jpeg" alt"nsbm" />
-                <img src="images/nsbm3.jpeg" alt"nsbm" />
-                <img src="images/nsbm4.jpeg" alt"nsbm" />
-                <img src="images/nsbm5.jpeg" alt"nsbm" />
-
-            </div>
-
-            <div id="pager"></div>
-                                     
-        </div>
-
-
-			</content>
+		Modules
 		</article>
 
 
 
 			<article class="middleContent">
 			<content id="com">
-				<figure id="fig1">
-
-
-					<img id="computing" src="images/com.jpg" alt"nsbm" />
-
-				</figure>
-					<figure id="fig2">
-					<img id="computing" src="images/man.jpg" alt"nsbm" />
-
-				</figure>
-					<figure id="fig3">
-					<img id="computing" src="images/engi.jpg" alt"nsbm" />
-
-				</figure>	
+				<ol id="year1">
+				<li><a href="year0.php">CS210 UCD-CS-Software Engineering Project 2</a></li>
+				<li><a href="http://www.w3schools.com">BMIS204 Business Statistics for Information Technology</a></li>
+				<li><a href="http://www.w3schools.com">BMIS210 Computer Networks</a></li>
+				<li><a href="http://www.w3schools.com">CS201 Algorithmic Problem Solving</a></li>
+				<li><a href="http://www.w3schools.com">CS202 Introduction to Cryptography</a></li>
+				<li><a href="http://www.w3schools.com">CS203 Digital Image Processing</a></li>
+				<li><a href="http://www.w3schools.com">CS204 Mathematics II</a></li>
+				<li><a href="year0.php">BMIS201 Management Practices</a></li>
+				<li><a href="year0.php">BMIS202 Software Engineering</a></li>
+				<li><a href="year0.php">BMIS203 Data Structures and Algorithms</a></li>
+				<li><a href="year0.php">BBMIS205 Advance Database Management Systems</a></li>
+				<li><a href="year0.php">BMIS206 Object Oriented Programming and Design I</a></li>
+				<li><a href="year0.php">BMIS207 Agile Software Development Methodologies	</a></li>
+				<li><a href="year0.php">BMIS209 Object Oriented Programming II</a></li>
+				<li><a href="year0.php">BMIS210 Distributed Processing</a></li>
+				<li><a href="year0.php">BMIS211 Data Warehousing and Data Mining</a></li>
+				<li><a href="year0.php">BMIS212 Computer Networking</a></li>
+				<li><a href="year0.php">BMIS213 Software Development Project</a></li>
+				</ol>
 			</content>
 		</article>
 
-	<article class="bottomContent">
-			<header>
-				<h2><a href="#" title="first post">Comments:</a></h2>
-			</header>
-
-		
-
-
-			<content>
-					
-
-			</content>
-		</article>
+	
 		</div>
 	</div>
 

@@ -32,69 +32,31 @@
 	<div class="mainContent">
 		<div class="content">
 		<article class="topContent">
-			<content>
-				<h1>Upcoming Events</h1>
-				<div class="container">
-            <div id="slideshow" class="cycle-slideshow" 
-			data-cycle-fx = "fade"
-			data-cycle-speed = "600"
-			data-cycle-timeout = "3000"
-			data-cycle-pager = "#pager"
-			data-cycle-pager-template = "<a href='#'><img src='{{src}}' height=100 width=150/>"
-			
-			data-cycle-manual-fx = "scrollHorz"
-			data-cycle-manual-speed = "400"
-			data-cycle-pager-fx = "fade">
-                <img src="images/nsbm1.jpeg" alt"nsbm" />
-                <img src="images/nsbm2.jpeg" alt"nsbm" />
-                <img src="images/nsbm3.jpeg" alt"nsbm" />
-                <img src="images/nsbm4.jpeg" alt"nsbm" />
-                <img src="images/nsbm5.jpeg" alt"nsbm" />
-
-            </div>
-
-            <div id="pager"></div>
-                                     
-        </div>
-
-
-			</content>
+		Modules
 		</article>
 
 
 
 			<article class="middleContent">
 			<content id="com">
-				<figure id="fig1">
-
-
-					<img id="computing" src="images/com.jpg" alt"nsbm" />
-
-				</figure>
-					<figure id="fig2">
-					<img id="computing" src="images/man.jpg" alt"nsbm" />
-
-				</figure>
-					<figure id="fig3">
-					<img id="computing" src="images/engi.jpg" alt"nsbm" />
-
-				</figure>	
+				<ol id="year1">
+				<li><a href="year0.php">PGDCN1309: Network Security</a></li>
+				<li><a href="year1.php">PGDCN1207: Service Provider Networks</a></li>
+				<li><a href="year2.php">Time Tables and Programme Information</a></li>
+				<li><a href="year3.php">PGDCN1104 Network Planning Implementing and Administration</a></li>
+				<li><a href="year4.php">PGDCN1208 Network Operations</a></li>
+				<li><a href="http://www.w3schools.com">PGDCN1206 Wireless Communication</a></li>
+				<li><a href="http://www.w3schools.com">BMIS209 Object Oriented Programming II</a></li>
+				<li><a href="http://www.w3schools.com">PGDCN1101 Computer Network Design</a></li>
+				<li><a href="http://www.w3schools.com">PGDCN1102 Netowrk Models and TCP/IP</a></li>
+				<li><a href="http://www.w3schools.com">PGDCN1103 Routing and Switching</a></li>
+				<li><a href="http://www.w3schools.com">PGDCN1205 Voice and Telephony Techniques</a></li>
+				<li><a href="http://www.w3schools.com">PGDCN1310 Disaster Recovery and High Availability Techniques</a></li>
+				</ol>
 			</content>
 		</article>
 
-	<article class="bottomContent">
-			<header>
-				<h2><a href="#" title="first post">Comments:</a></h2>
-			</header>
-
-		
-
-
-			<content>
-					
-
-			</content>
-		</article>
+	
 		</div>
 	</div>
 

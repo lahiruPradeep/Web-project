@@ -32,69 +32,39 @@
 	<div class="mainContent">
 		<div class="content">
 		<article class="topContent">
-			<content>
-				<h1>Upcoming Events</h1>
-				<div class="container">
-            <div id="slideshow" class="cycle-slideshow" 
-			data-cycle-fx = "fade"
-			data-cycle-speed = "600"
-			data-cycle-timeout = "3000"
-			data-cycle-pager = "#pager"
-			data-cycle-pager-template = "<a href='#'><img src='{{src}}' height=100 width=150/>"
-			
-			data-cycle-manual-fx = "scrollHorz"
-			data-cycle-manual-speed = "400"
-			data-cycle-pager-fx = "fade">
-                <img src="images/nsbm1.jpeg" alt"nsbm" />
-                <img src="images/nsbm2.jpeg" alt"nsbm" />
-                <img src="images/nsbm3.jpeg" alt"nsbm" />
-                <img src="images/nsbm4.jpeg" alt"nsbm" />
-                <img src="images/nsbm5.jpeg" alt"nsbm" />
-
-            </div>
-
-            <div id="pager"></div>
-                                     
-        </div>
-
-
-			</content>
+		Modules
 		</article>
 
 
 
 			<article class="middleContent">
 			<content id="com">
-				<figure id="fig1">
-
-
-					<img id="computing" src="images/com.jpg" alt"nsbm" />
-
-				</figure>
-					<figure id="fig2">
-					<img id="computing" src="images/man.jpg" alt"nsbm" />
-
-				</figure>
-					<figure id="fig3">
-					<img id="computing" src="images/engi.jpg" alt"nsbm" />
-
-				</figure>	
+				<ol id="year1">
+				<li><a href="year0.php">BMIS113 System Design Project</a></li>
+				<li><a href="http://www.w3schools.com">ISAD131 Database Management System II</a></li>
+				<li><a href="http://www.w3schools.com">MA101.3 Mathematics-1</a></li>
+				<li><a href="http://www.w3schools.com">CS110 Software Engineering Project 1</a></li>
+				<li><a href="http://www.w3schools.com">SOFT130-Software Engineering (C#)</a></li>
+				<li><a href="http://www.w3schools.com">Orientation for Level 1</a></li>
+				<li><a href="http://www.w3schools.com">CS101 Introduction to Computer Networks</a></li>
+				<li><a href="year0.php">CS104 Data Structures & Algorithms</a></li>
+				<li><a href="year0.php">CS103 Object Oriented Programming with C++	</a></li>
+				<li><a href="year0.php">CS105 Mathematics for Computing I</a></li>
+				<li><a href="year0.php">BMIS101 Introduction to Computer Science</a></li>
+				<li><a href="year0.php">BMIS102 Quantitative Techniques for Computing	</a></li>
+				<li><a href="year0.php">CS102.3 Programming with C Language</a></li>
+				<li><a href="year0.php">BMIS104 Computer Technology</a></li>
+				<li><a href="year0.php">BMIS105 Database Management Systems</a></li>
+				<li><a href="year0.php">BMIS107 Professional Development</a></li>
+				<li><a href="year0.php">BMIS108 Programming in Java</a></li>
+				<li><a href="year0.php">BMIS110 System Software</a></li>
+				<li><a href="year0.php">BMIS111 Internet Technology</a></li>
+				<li><a href="year0.php">BMIS112 System Analysis and Design</a></li>
+				</ol>
 			</content>
 		</article>
 
-	<article class="bottomContent">
-			<header>
-				<h2><a href="#" title="first post">Comments:</a></h2>
-			</header>
-
-		
-
-
-			<content>
-					
-
-			</content>
-		</article>
+	
 		</div>
 	</div>
 

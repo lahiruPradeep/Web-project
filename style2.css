@@ -1,0 +1,60 @@
+#calender{
+	margin-left: 30px;
+	margin-bottom: 20px;
+	width: 130px;
+	height: 200px;
+	background-color: #1EABE3;
+	color: #fff;
+	border-radius: 5%;
+	box-shadow: 0 4px 4px 0 rgba(50,50,50,0.4);
+}
+#calender>p
+{
+	font-family: verdana,arial,sans-serif;
+	padding:5px 0;
+	margin:0;
+	color: #fff;
+	text-align: center;
+}
+#calender-day{
+	font-size:16px;
+}
+#calender-month-year{
+	font-size: 14px;
+}
+#calender-date{
+	font-size: 64px;
+	padding-top: 10px;
+	padding-bottom: 0;
+}
+
+
+
+
+/*management,computing,engineering, faculaties images*/
+
+#com{
+	text-align: center;
+
+}
+#computing
+{
+	width:200px;
+	height: 150px;
+}
+#computing
+{
+	cursor: pointer;
+	border:5px solidwhite;
+	box-shadow: 0 0 22px rgba(0,0,0,.5);
+	overflow: hidden;
+}
+
+#computing
+{
+	transition: all 1.3s;
+
+}
+#computing:hover {
+	transform: scale(1.3);
+}

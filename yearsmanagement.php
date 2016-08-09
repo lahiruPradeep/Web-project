@@ -32,69 +32,25 @@
 	<div class="mainContent">
 		<div class="content">
 		<article class="topContent">
-			<content>
-				<h1>Upcoming Events</h1>
-				<div class="container">
-            <div id="slideshow" class="cycle-slideshow" 
-			data-cycle-fx = "fade"
-			data-cycle-speed = "600"
-			data-cycle-timeout = "3000"
-			data-cycle-pager = "#pager"
-			data-cycle-pager-template = "<a href='#'><img src='{{src}}' height=100 width=150/>"
-			
-			data-cycle-manual-fx = "scrollHorz"
-			data-cycle-manual-speed = "400"
-			data-cycle-pager-fx = "fade">
-                <img src="images/nsbm1.jpeg" alt"nsbm" />
-                <img src="images/nsbm2.jpeg" alt"nsbm" />
-                <img src="images/nsbm3.jpeg" alt"nsbm" />
-                <img src="images/nsbm4.jpeg" alt"nsbm" />
-                <img src="images/nsbm5.jpeg" alt"nsbm" />
-
-            </div>
-
-            <div id="pager"></div>
-                                     
-        </div>
-
-
-			</content>
+		Sub Categories
 		</article>
 
 
 
 			<article class="middleContent">
 			<content id="com">
-				<figure id="fig1">
-
-
-					<img id="computing" src="images/com.jpg" alt"nsbm" />
-
-				</figure>
-					<figure id="fig2">
-					<img id="computing" src="images/man.jpg" alt"nsbm" />
-
-				</figure>
-					<figure id="fig3">
-					<img id="computing" src="images/engi.jpg" alt"nsbm" />
-
-				</figure>	
+				<ul id="years">
+				<li><a href="pgdman.php">PGD </a></li>
+				<li><a href="ucd.php">UCD</a></li>
+				<li><a href="ugc.php">UGC</a></li>
+				<li><a href="msc.php">MSC</a></li>
+				<li><a href="found.php">Foundation</a></li>
+				<li><a href="ply.php">PLYMOUTH</a></li>
+				</ul>
 			</content>
 		</article>
 
-	<article class="bottomContent">
-			<header>
-				<h2><a href="#" title="first post">Comments:</a></h2>
-			</header>
-
-		
-
-
-			<content>
-					
-
-			</content>
-		</article>
+	
 		</div>
 	</div>
 
