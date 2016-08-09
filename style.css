@@ -1,0 +1,186 @@
+body{
+	font-size:14px;
+	font-family: arial;
+	line-height: 1.5;
+	text-align: left;
+
+}
+
+a{
+	text-decoration: none;
+}
+a:link, a:visited{
+	color: #92F258;
+}
+
+a:hover, a:active{
+	background-color: #92F258;
+	color: #fff;
+}
+
+
+.body{
+	background-color: #ccc;
+	margin: 0 auto;
+	width: 80%;
+	clear:both;
+}
+
+.mainHeader img{
+	width: 30%;
+	height: auto;
+	margin:2% 0;
+}
+#topic{
+	font-family: 'Francois One', sans-serif;
+	 font-size: 42px;
+	 color: #1EABE3;
+	font-weight: bold;
+	margin-top: 0px;
+	position: relative;
+	top: 10px;
+	left: 0;
+}
+#user{
+	box-shadow: 0 0 22px rgba(0,0,0,.1);
+}
+
+#pass{
+	box-shadow: 0 0 22px rgba(0,0,0,.1);
+}
+
+
+.mainContent {
+	
+	border-radius: 5px;
+	line-height: 25px;
+
+}
+.content{
+	width: 80%;
+	float: left;
+	margin-left: 100px;
+}
+
+
+.bottomContent{
+	background-color: #fff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	box-shadow: 0 0 22px rgba(1,1,1,.7);
+	padding: 3% 5%;
+	margin-top: 2%;
+	height: 400px;
+
+
+}
+
+#frm
+{
+	border:solid gray 1px;
+	width: 300px;
+	border-radius: 5px;
+	margin:100px auto;
+	background:#fff;
+	padding:50px;
+
+}
+#btn
+{
+	color: #fff;
+	background:#337ab7;
+	padding: 5px;
+	margin-left: 69%;
+}
+
+
+.mainfooter
+{
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	background-color: #666;
+	margin-top: 2%;
+	margin-bottom: 2%
+}
+.mainfooter p 
+{
+	width: 92%;
+	margin: 2% auto;
+}
+
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+	.body{
+	background-color: #ccc;
+	width: 90%;
+	font-size: 95%;
+	}
+
+
+.mainHeader img{
+	width: 100%;
+	
+	}
+
+
+	.mainHeader nav{
+
+	height: 160px;
+	
+	
+}
+.mainHeader nav ul{
+	padding-left: 0;
+}
+
+.mainHeader nav ul li{
+	width: 100%;
+	text-align: center;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited{
+	padding: 10px 25px;
+	height: 20px;
+	display: block;;
+}
+
+.content{
+	width: 100%;
+	float: left;
+	margin-top: 2%;
+}
+.topContent{
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%
+	margin-bottom:3%;
+
+}
+
+.bottomContent{
+	margin-top: 3%
+
+}
+
+.top-sidebar, .middle-sidebar, .bottom-sidebar
+{
+	width: 94%;
+	padding:2% 3%;
+	margin: 2% 0 2% 0%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+}
